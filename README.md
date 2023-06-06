@@ -8,4 +8,5 @@ What I learned with this project;
 
 - Objects And Object Constructors;
 - The Prototype;
-- Prototypal Inheritance.
+- Prototypal Inheritance;
+- JS Classes (after reconstructing code in branch);
