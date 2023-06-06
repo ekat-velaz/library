@@ -50,6 +50,14 @@ class Book {
  }
 };
 
+// // Book object constructor
+// function Book(title, author, pages, bookStatus) {
+//     this.title = title,
+//     this.author = author,
+//     this.pages = pages,
+//     this.bookStatus = bookStatus
+// };
+
 //Function to push book into the library and make it visible on the screen
 function addBookToLibrary(bookName) {
     bookName = new Book(titleInput.value, authorInput.value, pagesInput.value, statusInput.checked);
