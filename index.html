@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Library</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="main-container">
-        
-        <div id="header-container">
-            <div class="new-btn-container">
-                <button id="new-book">
-                    <img class="icon" src="icons/plus.svg">
-                </button>
-            </div>
-            <div id="header">My Library</div>
+      <div id="header-container">
+        <div class="new-btn-container">
+          <button id="new-book">
+            <img class="icon" src="icons/plus.svg" />
+          </button>
         </div>
+        <div id="header">My Library</div>
+      </div>
 
-        <div id="form-container">
-            <div class="header-form-container">
-                <button id="go-back">
-                    <img src="icons/arrow-left.svg" alt="" id="go-back-btn" class="icon">
-                </button>
-                <div class="form-header-text">Add new book!</div>
-            </div>
-            <form action="" class="form">
-                <div class="input-container">
-                    <label for="title">Title:</label>
-                    <input type="text" id="title" required maxlength="30">
-                </div>
-                <div class="input-container">
-                    <label for="author">Author:</label>
-                    <input type="text" id="author" required maxlength="20">
-                </div>
-                <div class="input-container">
-                    <label for="pages">Pages:</label>
-                    <input type="number" name="" id="pages" required maxlength="5">
-                </div>
-                <div class="input-container">
-                    <label for="status">Did you read this book?</label>
-                    <input type="checkbox" name="" id="status" >
-                </div>
-                <button type="submit" id="save-book">Save</button>
-            </form>
+      <div id="form-container">
+        <div class="header-form-container">
+          <button id="go-back">
+            <img
+              src="icons/arrow-left.svg"
+              alt=""
+              id="go-back-btn"
+              class="icon"
+            />
+          </button>
+          <div class="form-header-text">Add new book!</div>
         </div>
-        
-        <div id="cards-container"></div>
-        <div id="footer-container"></div>
-        </div>
+        <form action="" class="form">
+          <div class="input-container">
+            <label for="title">Title:</label>
+            <input type="text" id="title" required maxlength="30" />
+          </div>
+          <div class="input-container">
+            <label for="author">Author:</label>
+            <input type="text" id="author" required maxlength="20" />
+          </div>
+          <div class="input-container">
+            <label for="pages">Pages:</label>
+            <input type="number" name="" id="pages" required maxlength="5" />
+          </div>
+          <div class="input-container">
+            <label for="status">Did you read this book?</label>
+            <input type="checkbox" name="" id="status" />
+          </div>
+          <button type="submit" id="save-book">Save</button>
+        </form>
+      </div>
+
+      <div id="cards-container"></div>
+      <div id="footer-container"></div>
     </div>
-</body>
+  </body>
 </html>
